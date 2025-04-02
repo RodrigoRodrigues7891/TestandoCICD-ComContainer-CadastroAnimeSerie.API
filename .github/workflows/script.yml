@@ -16,4 +16,4 @@ jobs:
       - name: Execução do teste de integração da API com container
         run: dotnet test ./test/CadastroAnimeSerie.API.Test
       - name: Publicando a API
-        run: dotnet publish ./src/CadastroAnimeSerie.API
+        run: dotnet publish ./CadastroAnimeSerie.API
