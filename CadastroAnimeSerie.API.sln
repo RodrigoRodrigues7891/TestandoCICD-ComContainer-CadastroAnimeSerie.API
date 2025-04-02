@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroAnimeSerie.API", "CadastroAnimeSerie.API\CadastroAnimeSerie.API.csproj", "{CD98DB92-FFF7-48CB-8D93-5D53F55010A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroAnimeSerie.Modelo", "CadastroAnimeSerie.Modelo\CadastroAnimeSerie.Modelo.csproj", "{18AC5EEC-285D-440F-8EFE-32176E4D83C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroAnimeSerie.Dados", "CadastroAnimeSerie.Dados\CadastroAnimeSerie.Dados.csproj", "{AB723094-6925-4669-BF35-7DCAE63B0A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroAnimeSerie.API.Test", "test\CadastroAnimeSerie.API.Test\CadastroAnimeSerie.API.Test.csproj", "{CAD7C83A-9949-4092-A058-D1A13153CB1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD98DB92-FFF7-48CB-8D93-5D53F55010A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD98DB92-FFF7-48CB-8D93-5D53F55010A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD98DB92-FFF7-48CB-8D93-5D53F55010A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD98DB92-FFF7-48CB-8D93-5D53F55010A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AC5EEC-285D-440F-8EFE-32176E4D83C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AC5EEC-285D-440F-8EFE-32176E4D83C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AC5EEC-285D-440F-8EFE-32176E4D83C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AC5EEC-285D-440F-8EFE-32176E4D83C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB723094-6925-4669-BF35-7DCAE63B0A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB723094-6925-4669-BF35-7DCAE63B0A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB723094-6925-4669-BF35-7DCAE63B0A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB723094-6925-4669-BF35-7DCAE63B0A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD7C83A-9949-4092-A058-D1A13153CB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD7C83A-9949-4092-A058-D1A13153CB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD7C83A-9949-4092-A058-D1A13153CB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD7C83A-9949-4092-A058-D1A13153CB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
