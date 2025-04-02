@@ -15,3 +15,5 @@ jobs:
         uses: actions/checkout@v2 
       - name: Execução do teste de integração da API com container
         run: dotnet test ./test/CadastroAnimeSerie.API.Test
+      - name: Publicando a API
+        run: dotnet publish ./src/CadastroAnimeSerie.API
